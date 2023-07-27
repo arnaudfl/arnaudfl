@@ -3,7 +3,7 @@
 
 - 👨‍💻 All of my projects are available at [https://github.com/arnaudfl](https://github.com/arnaudfl)
 
-- 📄 Know about my experiences in [My Resume](https://github.com/arnaudfl/arnaudfl/blob/c8a26355c34ce7b2d87f6b59ef8c9cac43186b02/Resume-Arnaud-FENEROL.pdf)
+- 📄 Know about my experiences in [My Resume](https://www.dropbox.com/scl/fi/e7plxxlcxv6l0u3f21lbb/Resume-Arnaud-FENEROL.pdf?rlkey=gr3b6zllsacrxu74r1bhrugm6&dl=0)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
