@@ -65,10 +65,10 @@
 
 <br clear="both">
 
-<p><img src="./assets/childofthewild-banner.gif" align="middle" alt="Banner" width="100%"/></p>
+<p><img src="./assets/nightcity-banner.gif" align="middle" alt="Banner" width="100%"/></p>
 
 ###
 
 <br clear="both">
 
-<strong style="display:block; text-align:right; font-size:10px; font-weight:normal;">Credits: [Blade Runner 2049](https://www.behance.net/gallery/81092071/Blade-Runner2049-(Re-edit)) & [Child of the Wild](https://www.behance.net/gallery/170466977/Chill-of-the-Wild) by [Pixel Jeff](https://www.behance.net/pixeljeff)</strong>
+<strong style="display:block; text-align:right; font-size:10px; font-weight:normal;">Credits: [Blade Runner 2049](https://www.behance.net/gallery/81092071/Blade-Runner2049-(Re-edit)) by [Pixel Jeff](https://www.behance.net/pixeljeff)</strong>
