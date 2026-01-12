@@ -1,43 +1,114 @@
-# Arnaud F.
-
-**Full-Stack Developer** | React • TypeScript • Node.js
-
----
-
-## About Me
-
-Passionate Full-Stack Developer from France with expertise in building modern web applications. I focus on creating clean, efficient, and user-friendly solutions using cutting-edge technologies.
-
-## Technical Skills
-
-**Frontend**
-- React, Redux, Svelte
-- TypeScript, JavaScript (ES6+)
-- HTML5, CSS3, Sass
-- Vite, Webpack
-
-**Backend**
-- Node.js
-- MongoDB, MySQL
-
-**Tools & Others**
-- Git, GitHub Actions
-- VS Code, Postman
-- Figma
-- Netlify
-
-## Featured Projects
-
-Check out my pinned repositories below to see some of my work.
-
-## Connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/afenerol)
-[![Dev.to](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/arnaudfl)
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@4rn4udf)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/4rn4udf)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://dev.to/arnaudfl)
+<p align="center">
+  <img src="assets/cpc/title.svg" alt="CPC title screen - ARNAUDFL" />
+</p>
 
 ---
 
-*Open to collaboration and interesting projects*
+<pre>
+------------------------------------------------------------
+SYSTEM BOOT
+------------------------------------------------------------
+CPU     : Z80 @ 4 MHz
+RAM     : 64K
+MODE    : DEV
+TARGET  : GITHUB
+STATUS  : READY
+------------------------------------------------------------
+</pre>
+
+---
+
+## ▶ PLAYER PROFILE
+
+<pre>
+NAME   : ARNAUD
+CLASS  : WEB DEVELOPER
+ALIGN  : FULL-STACK
+ZONE   : FR
+
+SPECIALITIES :
+- Web applications
+- Tooling & automation
+- Retro & creative coding
+</pre>
+
+---
+
+<p align="center">
+  <img src="assets/cpc/stats.svg" alt="Player stats" />
+</p>
+
+---
+
+## ▶ QUEST LOG
+
+<pre>
+MAIN QUEST :
+> Building useful and maintainable web tools
+  with a strong focus on clean code.
+
+SIDE QUESTS :
+> Retro-inspired interfaces & experiments
+> Music & sound generation
+> Narrative and game tools
+
+DAILY QUEST :
+> Write clean code
+> Improve existing systems
+> Learn something new
+</pre>
+
+---
+
+## ▶ DISK CATALOG
+
+<pre>
+============================================================
+                 DISK CATALOG - ISSUE #01
+------------------------------------------------------------
+EDITORIAL :
+A selection of personal projects and experiments
+distributed as individual programs.
+
+------------------------------------------------------------
+[DISK 01]
+TITLE  : Fantasy Character Creator
+TYPE   : Tool / Generator
+STYLE  : Retro / UI
+NOTES  : Character creation & experimentation
+
+------------------------------------------------------------
+[DISK 02]
+TITLE  : Retro Music
+TYPE   : Sound / Chiptune
+STYLE  : 8-bit / Procedural
+NOTES  : Music experiments inspired by old systems
+
+------------------------------------------------------------
+[DISK 03]
+TITLE  : Experiments
+TYPE   : Misc / Prototype
+STYLE  : Games / Narrative
+NOTES  : Small projects, tests and ideas
+
+------------------------------------------------------------
+END OF CATALOG
+============================================================
+</pre>
+
+---
+
+## ▶ PORTS
+
+<pre>
+LINKEDIN : https://www.linkedin.com/in/arnaudfl
+DEV.TO   : https://dev.to/arnaudfl
+MEDIUM   : https://medium.com/@arnaudfl
+TWITTER  : https://twitter.com/arnaudfl
+</pre>
+
+---
+
+<p align="center">
+  <img src="assets/cpc/end.svg" alt="CPC end screen" />
+</p>

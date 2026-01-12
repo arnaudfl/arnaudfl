@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="220" viewBox="0 0 1200 220"
+     role="img" aria-label="CPC end screen">
+  <defs>
+    <style><![CDATA[
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+      .bg   { fill: #0B2A8F; }   /* CPC blue */
+      .inkY { fill: #FFF200; }   /* CPC yellow */
+      .inkC { fill: #00E5FF; }   /* cyan */
+      .inkW { fill: #FFFFFF; }
+      .border { stroke:#00E5FF; stroke-width:4; fill:none; shape-rendering:crispEdges; opacity:.95; }
+      .border2{ stroke:#FFF200; stroke-width:2; fill:none; shape-rendering:crispEdges; opacity:.75; }
+      .pixel { shape-rendering:crispEdges; image-rendering:pixelated; }
+      .tiny  { font-size: 14px; letter-spacing:.5px; opacity:.92; }
+      .mid   { font-size: 18px; letter-spacing:1px; opacity:.92; }
+    ]]></style>
+
+    <pattern id="scanlines" width="6" height="6" patternUnits="userSpaceOnUse">
+      <rect width="6" height="3" fill="#000" opacity="0.00"/>
+      <rect y="3" width="6" height="3" fill="#000" opacity="0.10"/>
+    </pattern>
+
+    <pattern id="dither" width="8" height="8" patternUnits="userSpaceOnUse">
+      <rect width="8" height="8" fill="transparent"/>
+      <rect x="1" y="1" width="1" height="1" fill="#FFF" opacity="0.10"/>
+      <rect x="5" y="3" width="1" height="1" fill="#FFF" opacity="0.08"/>
+      <rect x="3" y="6" width="1" height="1" fill="#FFF" opacity="0.06"/>
+    </pattern>
+
+    <radialGradient id="vignette" cx="50%" cy="45%" r="85%">
+      <stop offset="0%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="70%" stop-color="#000" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.16"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect class="bg" x="0" y="0" width="1200" height="220"/>
+  <rect x="0" y="0" width="1200" height="220" fill="url(#dither)" opacity="0.35"/>
+
+  <!-- Frame -->
+  <rect x="38" y="22" width="1124" height="176" rx="16" class="border"/>
+  <rect x="54" y="38" width="1092" height="144" rx="12" class="border2"/>
+
+  <!-- Content -->
+  <text x="600" y="70" text-anchor="middle" class="mono tiny inkC">
+    AMSTRAD CPC 6128 • SESSION CLOSED
+  </text>
+
+  <text x="600" y="108" text-anchor="middle" class="mono inkY" font-size="20" letter-spacing="1">
+    ------------------------------------------------------------
+  </text>
+
+  <text x="600" y="136" text-anchor="middle" class="mono mid inkW">
+    END OF FILE • INSERT DISK OR PRESS RESET
+  </text>
+
+  <!-- READY + blinking cursor (NO xlink) -->
+  <text x="600" y="170" text-anchor="middle" class="mono mid inkC">
+    READY<tspan>_<animate attributeName="opacity" dur="0.9s"
+                          values="1;1;0;0;1" repeatCount="indefinite"/></tspan>
+  </text>
+
+  <!-- Scanlines + vignette -->
+  <rect x="54" y="38" width="1092" height="144" rx="12"
+        fill="url(#scanlines)" class="pixel" opacity="0.55"/>
+  <rect x="0" y="0" width="1200" height="220" fill="url(#vignette)"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="160">
+  <rect width="100%" height="100%" fill="#000080"></rect>
+  <text x="20" y="30" fill="#00FFFF" font-family="monospace" font-size="16">
+AMSTRAD CPC 6128
+BASIC 1.1
+64K RAM OK
+DISC OK
+LOADING SYSTEM...
+READY_
+  </text>
+  <animate attributeName="opacity" dur="1.5s" values="1;1;0" repeatCount="indefinite"></animate>
+</svg>
